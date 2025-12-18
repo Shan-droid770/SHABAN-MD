@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . .
 
 # Install dependencies
-RUN npm install && npm install -g pm2
+RUN npm install
 
 # Expose the port your app listens on
 EXPOSE 9090
